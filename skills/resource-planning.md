@@ -5,7 +5,7 @@ title: Resource Planning
 description: "Planning resource allocation across teams and quarters, identifying gaps, conflicts, and capacity constraints"
 tags: [Production, Tested]
 connections:
-  - target: claude-service
+  - target: llm-service
     type: runs_on
 metadata:
   estimated_duration: "5-8 minutes"

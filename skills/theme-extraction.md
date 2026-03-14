@@ -5,7 +5,7 @@ title: Theme Extraction
 description: "Extracting strategic themes from product vision, OKRs, and customer feedback to organise and structure a product roadmap"
 tags: [Production, Tested]
 connections:
-  - target: claude-service
+  - target: llm-service
     type: runs_on
   - target: roadmap-methodology-guide
     type: references

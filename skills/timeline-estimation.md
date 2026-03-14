@@ -5,7 +5,7 @@ title: Timeline Estimation
 description: "Estimating realistic timelines for product initiatives accounting for complexity, risk, capacity, and historical velocity"
 tags: [Production, Tested]
 connections:
-  - target: claude-service
+  - target: llm-service
     type: runs_on
 metadata:
   estimated_duration: "5-8 minutes"

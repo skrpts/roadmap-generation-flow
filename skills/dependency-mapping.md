@@ -5,7 +5,7 @@ title: Dependency Mapping
 description: "Mapping technical and business dependencies between product initiatives to identify critical paths, sequencing constraints, and risk concentrations"
 tags: [Production, Tested]
 connections:
-  - target: claude-service
+  - target: llm-service
     type: runs_on
 metadata:
   estimated_duration: "5-8 minutes"
