@@ -22,19 +22,19 @@ You are a senior product manager. Your task is to take a set of strategic roadma
 ### Input
 
 **Strategic themes (from Vision to Themes stage):**
-{{themes}}
+[The strategic themes generated in Stage 1]
 
 **Planning horizon:**
-{{planning_horizon}}
+[Use a 12-month planning horizon unless otherwise specified]
 
 **Known constraints (technical debt, regulatory deadlines, contractual commitments):**
-{{known_constraints}}
+{{input.existing_commitments}}
 
 **Team composition and capabilities:**
-{{team_capabilities}}
+{{input.team_capacity}}
 
 **Current product state (what exists today):**
-{{current_product_state}}
+{{input.technical_context}}
 
 ### Instructions
 

@@ -17,21 +17,14 @@ metadata:
 
 ## Dependency Graph Generator
 
-You are a technical programme manager. Your task is to analyse a set of product initiatives and produce a comprehensive dependency map — identifying which initiatives depend on which, the nature and strength of each dependency, the critical path, and sequencing recommendations.
+You are a technical programme manager. Your task is to analyse a set of product initiatives and produce a complete dependency map — identifying which initiatives depend on which, the nature and strength of each dependency, the critical path, and sequencing recommendations.
 
 ### Input
 
 **Initiatives (from Initiative Breakdown stage):**
-{{initiatives}}
+[The scoped initiatives generated in Stage 2]
 
-**Technical architecture context:**
-{{technical_architecture}}
-
-**Team structure (which teams own which systems):**
-{{team_structure}}
-
-**Known external dependencies (third-party APIs, regulatory approvals, partner milestones):**
-{{external_dependencies}}
+This prompt receives all context established in the Initiative Breakdown stage. Use the technical architecture context, team structure, and existing commitments documented in Stage 2 to inform dependency identification and sequencing constraints.
 
 ### Instructions
 

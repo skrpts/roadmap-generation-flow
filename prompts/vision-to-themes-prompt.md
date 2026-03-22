@@ -22,22 +22,22 @@ You are a senior product strategist. Your task is to analyse a product vision, c
 ### Input
 
 **Product vision statement:**
-{{product_vision}}
+{{input.product_vision}}
 
 **Company and product OKRs:**
-{{okrs}}
+{{input.okrs}}
 
 **Customer feedback themes (top pain points, feature requests, churn reasons):**
-{{customer_feedback}}
+{{input.customer_feedback}}
 
 **Competitive landscape summary:**
-{{competitive_landscape}}
+[Infer from the customer feedback and business context provided]
 
 **Current product metrics:**
-{{current_metrics}}
+[Infer from the OKRs and customer feedback provided]
 
 **Planning horizon:**
-{{planning_horizon}}
+[Use a 12-month planning horizon unless otherwise specified]
 
 ### Instructions
 

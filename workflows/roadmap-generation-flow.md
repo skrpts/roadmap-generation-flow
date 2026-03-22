@@ -2,7 +2,7 @@
 type: workflow
 id: roadmap-generation-flow
 title: Roadmap Generation Flow
-description: "Comprehensive multi-stage pipeline that generates a complete product roadmap from vision, OKRs, and customer feedback through themed initiatives, dependency mapping, resource allocation, and stakeholder-ready output"
+description: "Multi-stage pipeline that generates a complete product roadmap from vision, OKRs, and customer feedback through themed initiatives, dependency mapping, resource allocation, and stakeholder-ready output"
 tags: [Production, Tested]
 connections:
   - target: theme-extraction
@@ -47,7 +47,7 @@ metadata:
 
 ## Roadmap Generation Flow
 
-This is a comprehensive, seven-stage pipeline that generates a complete product roadmap from strategic inputs (vision, OKRs, customer feedback, market analysis) through to a stakeholder-ready document with themed initiatives, dependency graphs, realistic timelines, resource allocation plans, and a compelling narrative. It is the most complex workflow in the product-manager skrpt collection and is designed to produce a roadmap that can be presented directly to executives, shared with cross-functional partners, and used to guide quarterly planning.
+This is a seven-stage pipeline that generates a complete product roadmap from strategic inputs (vision, OKRs, customer feedback, market analysis) through to a stakeholder-ready document with themed initiatives, dependency graphs, realistic timelines, resource allocation plans, and a compelling narrative. It is the most complex workflow in the product-manager skrpt collection and is designed to produce a roadmap that can be presented directly to executives, shared with cross-functional partners, and used to guide quarterly planning.
 
 ### Prerequisites
 
@@ -252,7 +252,12 @@ The final roadmap document contains:
 
 | Name | Required | Description | Example |
 |------|----------|-------------|---------|
-| `{{input.brief}}` | Yes | Primary workflow brief or source content | `Paste a short brief describing the goal, audience, and constraints.` |
+| `{{input.product_vision}}` | Yes | Product vision statement — where the product is heading (1-2 paragraphs) | "We are building the leading platform for SMB customer data management, enabling businesses to unify their customer data across tools and act on insights without needing a data team." |
+| `{{input.okrs}}` | Yes | Current OKRs or strategic priorities (company-level and product-level) | "O1: Grow enterprise segment to 40% of revenue. KR1: Land 15 new enterprise accounts. KR2: Increase average deal size to $50K ARR." |
+| `{{input.customer_feedback}}` | Yes | Known customer problems, feedback themes, top feature requests, churn reasons | "Top 3 requests: offline mode, SSO support, bulk data import. Churn reasons: 'too complex for our team', 'missing integrations with Salesforce'." |
+| `{{input.team_capacity}}` | No | Team composition and capacity — headcount by function, skill gaps, contractor availability | "Engineering: 12 (4 backend, 3 frontend, 2 platform, 2 mobile, 1 data). Design: 3. Product: 2." |
+| `{{input.technical_context}}` | No | Technical architecture context — major systems, known limitations, tech debt areas | "Monolithic Rails app being migrated to microservices. Auth system needs rewrite. Mobile app is React Native." |
+| `{{input.existing_commitments}}` | No | Existing commitments — contractual obligations, regulatory deadlines, partnership milestones | "SOC 2 audit due Q3. Salesforce integration promised to 3 enterprise prospects by end of Q2." |
 
 ## Outputs
 
@@ -279,6 +284,14 @@ Before running this workflow:
 To test this workflow immediately after import:
 
 ```
-Brief: "Paste a short brief describing the goal, audience, and constraints."
+Product Vision: "We are building the leading platform for SMB customer data management,
+enabling businesses to unify their customer data across tools and act on insights
+without needing a data team."
+
+OKRs: "O1: Grow enterprise segment to 40% of revenue. KR1: Land 15 new enterprise accounts.
+O2: Improve retention. KR1: Reduce churn from 8% to 5% monthly."
+
+Customer Feedback: "Top requests: offline mode, SSO support, bulk data import.
+Churn reasons: 'too complex', 'missing Salesforce integration'."
 ```
 

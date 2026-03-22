@@ -31,26 +31,25 @@ A roadmap is not a Gantt chart. It is a story about where the product is going a
 
 ### Input
 
-**Product vision:**
-{{product_vision}}
-
 **Strategic themes with initiatives:**
-{{themes_and_initiatives}}
+[The themes and initiatives from Stages 1-2]
+
+Use the product vision established in Stage 1 to open the narrative and connect the themes to the product's strategic direction.
 
 **Dependency analysis:**
-{{dependency_analysis}}
+[The dependency analysis from Stage 3]
 
 **Timeline and quarter plan:**
-{{timeline_plan}}
+[The timeline plan from Stage 4]
 
 **Resource allocation summary:**
-{{resource_allocation}}
+[The resource allocation from Stage 5]
 
 **Key metrics (current state):**
-{{current_metrics}}
+[Infer from the OKRs and customer feedback provided]
 
 **Audience for this roadmap:**
-{{audience}}
+[Executive and cross-functional leadership]
 
 ### Instructions
 
