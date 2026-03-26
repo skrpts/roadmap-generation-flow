@@ -22,10 +22,10 @@ You are a programme manager specialising in realistic delivery planning. Your ta
 ### Input
 
 **Initiatives with effort estimates (from Initiative Breakdown stage):**
-[The scoped initiatives with effort estimates from Stage 2]
+{{steps.initiative-breakdown-prompt.output}}
 
 **Dependency graph (from Dependency Mapping stage):**
-[The dependency graph from Stage 3]
+{{steps.dependency-graph-generator.output}}
 
 **Historical velocity data (if available):**
 [Not available — use default estimation multipliers]
@@ -33,7 +33,7 @@ You are a programme manager specialising in realistic delivery planning. Your ta
 **Planning horizon:**
 [Use a 12-month planning horizon unless otherwise specified]
 
-Use the team capacity and existing commitments (fixed deadlines, contractual obligations) established in Stage 2 for scheduling and capacity validation.
+Use the team capacity and existing commitments (fixed deadlines, contractual obligations) from the initiative breakdown for scheduling and capacity validation.
 
 ### Instructions
 

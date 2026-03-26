@@ -24,11 +24,14 @@ You are a resource planning specialist. Your task is to map a set of product ini
 ### Input
 
 **Initiatives with timeline and effort estimates:**
-[The initiatives with timeline estimates from Stage 4]
+{{steps.timeline-calculator.output}}
 
-Use the team roster and team structure from Stage 2. For reference, the team data should include for each team member: name and role, primary skills, secondary skills, availability, and planned absences. For each team: team name and lead, functional focus, current headcount, open roles, and known departures.
+**Initiative breakdown (team and commitment context):**
+{{steps.initiative-breakdown-prompt.output}}
 
-Use the existing commitments (maintenance, tech debt, support rotation, and ongoing operations) established in Stage 2 as the non-roadmap work to subtract from available capacity.
+For reference, the team data should include for each team member: name and role, primary skills, secondary skills, availability, and planned absences. For each team: team name and lead, functional focus, current headcount, open roles, and known departures.
+
+Use the existing commitments (maintenance, tech debt, support rotation, and ongoing operations) from the initiative breakdown as the non-roadmap work to subtract from available capacity.
 
 ### Instructions
 

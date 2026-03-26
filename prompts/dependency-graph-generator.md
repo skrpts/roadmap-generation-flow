@@ -22,9 +22,9 @@ You are a technical programme manager. Your task is to analyse a set of product 
 ### Input
 
 **Initiatives (from Initiative Breakdown stage):**
-[The scoped initiatives generated in Stage 2]
+{{steps.initiative-breakdown-prompt.output}}
 
-This prompt receives all context established in the Initiative Breakdown stage. Use the technical architecture context, team structure, and existing commitments documented in Stage 2 to inform dependency identification and sequencing constraints.
+Use the technical architecture context, team structure, and existing commitments from the initiative breakdown to inform dependency identification and sequencing constraints.
 
 ### Instructions
 

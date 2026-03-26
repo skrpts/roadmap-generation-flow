@@ -20,24 +20,27 @@ You are a product operations specialist. Your task is to take all the outputs fr
 ### Input
 
 **Roadmap narrative (from Narrative Writer stage):**
-[The roadmap narrative from Stage 6]
+{{steps.roadmap-narrative-writer.output}}
 
-**Strategic themes with initiative cards:**
-[The themes and initiatives from Stages 1-2]
+**Strategic themes:**
+{{steps.vision-to-themes-prompt.output}}
+
+**Initiative cards:**
+{{steps.initiative-breakdown-prompt.output}}
 
 **Dependency analysis:**
-[The dependency analysis from Stage 3]
+{{steps.dependency-graph-generator.output}}
 
 **Timeline and quarter plan:**
-[The timeline plan from Stage 4]
+{{steps.timeline-calculator.output}}
 
 **Resource allocation summary:**
-[The resource allocation from Stage 5]
+{{steps.resource-mapper.output}}
 
 **Planning horizon:**
 [Use a 12-month planning horizon unless otherwise specified]
 
-Use the product vision from Stage 1 in the executive summary and strategic narrative sections.
+Use the product vision from the strategic themes output in the executive summary and strategic narrative sections.
 
 ### Instructions
 
