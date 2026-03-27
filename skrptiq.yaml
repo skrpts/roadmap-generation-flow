@@ -20,9 +20,11 @@ tags:
   - "okrs"
 
 requires:
-  services: []
+  services:
+    - "llm-service"
   permissions: []
   data_handling:
+    - "pii"
     - "product-roadmap"
     - "business-strategy"
     - "resource-plans"
