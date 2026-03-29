@@ -3,7 +3,7 @@ type: document
 id: roadmap-communication-guide
 title: Roadmap Communication Guide
 description: "Guide to communicating product roadmaps effectively to different audiences — executives, teams, customers, and partners"
-tags: [Production, planning:product, communication:stakeholder]
+tags: [Production, Audience, Planning]
 connections:
   - target: roadmap-narrative-writer
     type: references

@@ -3,7 +3,7 @@ type: prompt
 id: roadmap-assembler
 title: Roadmap Assembler
 description: "Assemble all roadmap components into a complete, structured document ready for stakeholder review"
-tags: [Production, planning:product, communication:stakeholder]
+tags: [Production, Planning, Communication]
 connections:
   - target: roadmap-template
     type: references

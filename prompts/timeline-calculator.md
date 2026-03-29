@@ -3,7 +3,7 @@ type: prompt
 id: timeline-calculator
 title: Timeline Calculator
 description: "Calculate realistic timelines for product initiatives based on effort estimates, capacity, dependencies, and historical velocity"
-tags: [Production, planning:sprint, planning:product, research:citations]
+tags: [Production, Agile, Citations, Planning]
 connections:
   - target: timeline-estimation
     type: derived_from

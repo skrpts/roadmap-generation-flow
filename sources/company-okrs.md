@@ -3,7 +3,7 @@ type: source
 id: company-okrs
 title: Company OKRs
 description: "Reference template for company objectives and key results used to align product priorities"
-tags: [Production, planning:product, communication:stakeholder]
+tags: [Production, Planning, Communication]
 connections: []
 metadata:
   source_type: "reference"

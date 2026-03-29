@@ -3,7 +3,7 @@ type: skill
 id: timeline-estimation
 title: Timeline Estimation
 description: "Estimating realistic timelines for product initiatives accounting for complexity, risk, capacity, and historical velocity"
-tags: [Production, Tested, planning:sprint, planning:product, research:citations]
+tags: [Production, Tested, Agile, Citations, Planning]
 connections:
   - target: llm-service
     type: runs_on

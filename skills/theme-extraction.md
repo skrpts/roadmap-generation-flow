@@ -3,7 +3,7 @@ type: skill
 id: theme-extraction
 title: Theme Extraction
 description: "Extracting strategic themes from product vision, OKRs, and customer feedback to organise and structure a product roadmap"
-tags: [Production, Tested, analysis:qualitative, planning:product]
+tags: [Production, Tested, Planning, Communication]
 connections:
   - target: llm-service
     type: runs_on

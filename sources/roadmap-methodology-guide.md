@@ -3,7 +3,7 @@ type: source
 id: roadmap-methodology-guide
 title: Roadmap Methodology Guide
 description: "Reference guide to product roadmap methodologies including NOW-NEXT-LATER, timeline-based, outcome-based, and theme-based approaches"
-tags: [Production, planning:product, communication:stakeholder]
+tags: [Production, Planning, Research]
 connections:
   - target: theme-extraction
     type: references

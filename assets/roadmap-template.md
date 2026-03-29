@@ -3,7 +3,7 @@ type: asset
 id: roadmap-template
 title: Roadmap Template
 description: "Master template for the final roadmap document, providing the structure and placeholder sections for assembly"
-tags: [Production, planning:product, communication:stakeholder]
+tags: [Production, Planning, Communication]
 connections:
   - target: roadmap-assembler
     type: references

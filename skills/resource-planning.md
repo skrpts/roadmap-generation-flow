@@ -3,7 +3,7 @@ type: skill
 id: resource-planning
 title: Resource Planning
 description: "Planning resource allocation across teams and quarters, identifying gaps, conflicts, and capacity constraints"
-tags: [Production, Tested, planning:product, planning:team, research:citations]
+tags: [Production, Tested, Citations, Planning]
 connections:
   - target: llm-service
     type: runs_on
