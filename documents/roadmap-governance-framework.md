@@ -3,7 +3,7 @@ type: document
 id: roadmap-governance-framework
 title: Roadmap Governance Framework
 description: "Framework for roadmap governance including review cadence, change management process, decision authority, and escalation paths"
-tags: [Production]
+tags: [Production, planning:product, communication:stakeholder]
 connections:
   - target: roadmap-generation-flow
     type: references

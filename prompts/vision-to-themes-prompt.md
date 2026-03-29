@@ -3,7 +3,7 @@ type: prompt
 id: vision-to-themes-prompt
 title: Vision to Themes Prompt
 description: "Translate product vision, OKRs, and customer feedback into strategic roadmap themes"
-tags: [Production]
+tags: [Production, planning:product, utility:translation]
 connections:
   - target: theme-extraction
     type: derived_from

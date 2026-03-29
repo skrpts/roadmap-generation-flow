@@ -3,7 +3,7 @@ type: prompt
 id: executive-summary-prompt
 title: Executive Summary Prompt
 description: "Generate a concise, decision-ready executive summary from pipeline analysis outputs"
-tags: [Production]
+tags: [Production, planning:product, communication:stakeholder]
 connections:
   - target: executive-summary
     type: derived_from

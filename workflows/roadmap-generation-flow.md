@@ -3,7 +3,7 @@ type: workflow
 id: roadmap-generation-flow
 title: Roadmap Generation Flow
 description: "Multi-stage pipeline that generates a complete product roadmap from vision, OKRs, and customer feedback through themed initiatives, dependency mapping, resource allocation, and stakeholder-ready output"
-tags: [Production, Tested]
+tags: [Production, Tested, planning:product, planning:team]
 connections:
   - target: theme-extraction
     type: uses

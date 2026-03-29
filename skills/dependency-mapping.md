@@ -3,7 +3,7 @@ type: skill
 id: dependency-mapping
 title: Dependency Mapping
 description: "Mapping technical and business dependencies between product initiatives to identify critical paths, sequencing constraints, and risk concentrations"
-tags: [Production, Tested]
+tags: [Production, Tested, planning:product, communication:stakeholder]
 connections:
   - target: llm-service
     type: runs_on

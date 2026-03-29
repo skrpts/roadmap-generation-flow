@@ -3,7 +3,7 @@ type: prompt
 id: dependency-graph-generator
 title: Dependency Graph Generator
 description: "Generate a dependency graph narrative and matrix for a set of product initiatives, identifying critical paths and sequencing constraints"
-tags: [Production]
+tags: [Production, planning:product, communication:stakeholder]
 connections:
   - target: dependency-mapping
     type: derived_from

@@ -3,7 +3,7 @@ type: prompt
 id: roadmap-narrative-writer
 title: Roadmap Narrative Writer
 description: "Write a compelling roadmap narrative that connects strategic themes, initiative choices, and timelines to the product vision"
-tags: [Production]
+tags: [Production, planning:product, communication:stakeholder]
 connections:
   - target: theme-extraction
     type: derived_from

@@ -3,7 +3,7 @@ type: prompt
 id: resource-mapper
 title: Resource Mapper
 description: "Map initiatives to teams and individuals, identifying resource gaps, conflicts, and allocation decisions"
-tags: [Production]
+tags: [Production, planning:product, communication:stakeholder]
 connections:
   - target: resource-planning
     type: derived_from

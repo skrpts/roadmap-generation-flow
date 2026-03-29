@@ -3,7 +3,7 @@ type: asset
 id: quarterly-planning-template
 title: Quarterly Planning Template
 description: "Template for quarterly planning breakdowns, mapping initiatives to teams, timelines, and capacity within a single quarter"
-tags: [Production]
+tags: [Production, planning:product, research:citations]
 connections:
   - target: resource-mapper
     type: references

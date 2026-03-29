@@ -3,7 +3,7 @@ type: prompt
 id: initiative-breakdown-prompt
 title: Initiative Breakdown Prompt
 description: "Break strategic roadmap themes into concrete, scoped initiatives with clear outcomes, strategic classification, and confidence levels"
-tags: [Production]
+tags: [Production, planning:product, communication:stakeholder]
 connections:
   - target: theme-extraction
     type: derived_from
