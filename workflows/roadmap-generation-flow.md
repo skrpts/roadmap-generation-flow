@@ -27,9 +27,21 @@ connections:
     type: uses
   - target: roadmap-assembler
     type: uses
+  - target: stakeholder-analysis
+    type: uses
+  - target: risk-assessment
+    type: uses
+  - target: executive-summary
+    type: uses
+  - target: executive-summary-prompt
+    type: uses
   - target: llm-service
     type: runs_on
   - target: roadmap-methodology-guide
+    type: references
+  - target: product-strategy-guide
+    type: references
+  - target: company-okrs
     type: references
   - target: roadmap-governance-framework
     type: references
