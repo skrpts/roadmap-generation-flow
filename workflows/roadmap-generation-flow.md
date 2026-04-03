@@ -51,6 +51,14 @@ connections:
     type: references
   - target: quarterly-planning-template
     type: references
+  - target: brief-compliance-check
+    type: uses
+  - target: consistency-check
+    type: uses
+  - target: input-gap-check
+    type: uses
+  - target: dedup-and-merge
+    type: uses
 metadata:
   estimated_duration: "30-50 minutes"
   avg_tokens: 25000
