@@ -13,27 +13,11 @@ connections:
     type: uses
   - target: resource-planning
     type: uses
-  - target: vision-to-themes-prompt
-    type: uses
-  - target: initiative-breakdown-prompt
-    type: uses
-  - target: dependency-graph-generator
-    type: uses
-  - target: timeline-calculator
-    type: uses
-  - target: resource-mapper
-    type: uses
-  - target: roadmap-narrative-writer
-    type: uses
-  - target: roadmap-assembler
-    type: uses
   - target: stakeholder-analysis
     type: uses
   - target: risk-assessment
     type: uses
   - target: executive-summary
-    type: uses
-  - target: executive-summary-prompt
     type: uses
   - target: llm-service
     type: runs_on
