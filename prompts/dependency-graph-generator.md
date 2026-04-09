@@ -22,7 +22,7 @@ You are a technical programme manager. Your task is to analyse a set of product 
 ### Input
 
 **Initiatives (from Initiative Breakdown stage):**
-{{steps.initiative-breakdown-prompt.output}}
+{{steps.Theme Extraction.output}}
 
 Use the technical architecture context, team structure, and existing commitments from the initiative breakdown to inform dependency identification and sequencing constraints.
 

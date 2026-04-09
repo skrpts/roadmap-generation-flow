@@ -32,19 +32,19 @@ A roadmap is not a Gantt chart. It is a story about where the product is going a
 ### Input
 
 **Strategic themes:**
-{{steps.vision-to-themes-prompt.output}}
+{{steps.Theme Extraction.output}}
 
 **Initiatives:**
-{{steps.initiative-breakdown-prompt.output}}
+{{steps.Theme Extraction.output}}
 
 **Dependency analysis:**
-{{steps.dependency-graph-generator.output}}
+{{steps.Dependency Mapping.output}}
 
 **Timeline and quarter plan:**
-{{steps.timeline-calculator.output}}
+{{steps.Timeline Estimation.output}}
 
 **Resource allocation summary:**
-{{steps.resource-mapper.output}}
+{{steps.Resource Planning.output}}
 
 **Key metrics (current state):**
 [Infer from the OKRs and customer feedback provided]

@@ -22,10 +22,10 @@ You are a programme manager specialising in realistic delivery planning. Your ta
 ### Input
 
 **Initiatives with effort estimates (from Initiative Breakdown stage):**
-{{steps.initiative-breakdown-prompt.output}}
+{{steps.Theme Extraction.output}}
 
 **Dependency graph (from Dependency Mapping stage):**
-{{steps.dependency-graph-generator.output}}
+{{steps.Dependency Mapping.output}}
 
 **Historical velocity data (if available):**
 [Not available — use default estimation multipliers]

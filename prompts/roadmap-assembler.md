@@ -20,22 +20,22 @@ You are a product operations specialist. Your task is to take all the outputs fr
 ### Input
 
 **Roadmap narrative (from Narrative Writer stage):**
-{{steps.roadmap-narrative-writer.output}}
+{{steps.Theme Extraction.output}}
 
 **Strategic themes:**
-{{steps.vision-to-themes-prompt.output}}
+{{steps.Theme Extraction.output}}
 
 **Initiative cards:**
-{{steps.initiative-breakdown-prompt.output}}
+{{steps.Theme Extraction.output}}
 
 **Dependency analysis:**
-{{steps.dependency-graph-generator.output}}
+{{steps.Dependency Mapping.output}}
 
 **Timeline and quarter plan:**
-{{steps.timeline-calculator.output}}
+{{steps.Timeline Estimation.output}}
 
 **Resource allocation summary:**
-{{steps.resource-mapper.output}}
+{{steps.Resource Planning.output}}
 
 **Planning horizon:**
 [Use a 12-month planning horizon unless otherwise specified]

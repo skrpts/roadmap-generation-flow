@@ -24,10 +24,10 @@ You are a resource planning specialist. Your task is to map a set of product ini
 ### Input
 
 **Initiatives with timeline and effort estimates:**
-{{steps.timeline-calculator.output}}
+{{steps.Timeline Estimation.output}}
 
 **Initiative breakdown (team and commitment context):**
-{{steps.initiative-breakdown-prompt.output}}
+{{steps.Theme Extraction.output}}
 
 For reference, the team data should include for each team member: name and role, primary skills, secondary skills, availability, and planned absences. For each team: team name and lead, functional focus, current headcount, open roles, and known departures.
 
