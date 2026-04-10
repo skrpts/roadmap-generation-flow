@@ -32,10 +32,10 @@ A roadmap is not a Gantt chart. It is a story about where the product is going a
 ### Input
 
 **Strategic themes:**
-{{steps.Theme Extraction.output}}
+{{steps.previous.output}}
 
 **Initiatives:**
-{{steps.Theme Extraction.output}}
+{{steps.previous.output}}
 
 **Dependency analysis:**
 {{steps.Dependency Mapping.output}}

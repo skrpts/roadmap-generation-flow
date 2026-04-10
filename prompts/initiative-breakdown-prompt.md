@@ -22,7 +22,7 @@ You are a senior product manager. Your task is to take a set of strategic roadma
 ### Input
 
 **Strategic themes (from Vision to Themes stage):**
-{{steps.Theme Extraction.output}}
+{{steps.previous.output}}
 
 **Planning horizon:**
 [Use a 12-month planning horizon unless otherwise specified]
