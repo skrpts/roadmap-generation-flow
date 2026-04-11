@@ -47,6 +47,28 @@ metadata:
   estimated_duration: "30-50 minutes"
   avg_tokens: 25000
   trigger: manual
+execution:
+  - skill: "theme-extraction"
+  - skill: "dependency-mapping"
+    input_from: "theme-extraction"
+  - skill: "timeline-estimation"
+    input_from: "dependency-mapping"
+  - skill: "resource-planning"
+    input_from: "timeline-estimation"
+  - skill: "stakeholder-analysis"
+    input_from: "resource-planning"
+  - skill: "executive-summary"
+    input_from: "stakeholder-analysis"
+  - skill: "dedup-and-merge"
+    input_from: "executive-summary"
+  - skill: "risk-assessment"
+    input_from: "dedup-and-merge"
+  - skill: "brief-compliance-check"
+    input_from: "dedup-and-merge"
+  - skill: "consistency-check"
+    input_from: "dedup-and-merge"
+  - skill: "input-gap-check"
+    input_from: "dedup-and-merge"
 ---
 
 ## Roadmap Generation Flow
