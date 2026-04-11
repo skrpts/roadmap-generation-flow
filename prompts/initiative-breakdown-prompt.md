@@ -4,6 +4,24 @@ id: initiative-breakdown-prompt
 title: Initiative Breakdown Prompt
 description: "Break strategic roadmap themes into concrete, scoped initiatives with clear outcomes, strategic classification, and confidence levels"
 tags: [Production, Planning, Communication]
+inputs:
+  existing_commitments:
+    label: "Existing Commitments"
+    description: "Other commitments that affect available study time"
+    example: "Part-time job 10 hrs/week, sports practice Wednesdays"
+    required: true
+    type: text
+  team_capacity:
+    label: "Team Capacity"
+    description: "Available team capacity for the sprint"
+    example: "3 engineers (full-time), 1 designer (50%), 1 QA (full-time)"
+    required: true
+    type: text
+  technical_context:
+    label: "Technical Context"
+    description: "Technical Context"
+    required: true
+    type: text
 connections:
   - target: theme-extraction
     type: derived_from

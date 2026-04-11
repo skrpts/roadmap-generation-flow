@@ -4,6 +4,25 @@ id: vision-to-themes-prompt
 title: Vision to Themes Prompt
 description: "Translate product vision, OKRs, and customer feedback into strategic roadmap themes"
 tags: [Production, Planning, Translation]
+inputs:
+  product_vision:
+    label: "Product Vision"
+    description: "The product vision or strategy document"
+    example: "Build the leading AI workflow platform for knowledge workers"
+    required: true
+    type: text
+  okrs:
+    label: "OKRs"
+    description: "Objectives and key results for the current period"
+    example: "O: Improve retention. KR1: Reduce churn to <2%. KR2: Increase NPS to 50."
+    required: true
+    type: text
+  customer_feedback:
+    label: "Customer Feedback"
+    description: "Customer feedback, survey results, or support ticket themes"
+    example: "Top 3 requests: dark mode, mobile app, API access. NPS verbatims attached."
+    required: true
+    type: text
 connections:
   - target: theme-extraction
     type: derived_from
