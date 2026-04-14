@@ -47,6 +47,19 @@ metadata:
   estimated_duration: "30-50 minutes"
   avg_tokens: 25000
   trigger: manual
+output_step: "executive-summary"
+composite_steps:
+  - "theme-extraction"
+  - "dependency-mapping"
+  - "timeline-estimation"
+  - "resource-planning"
+  - "stakeholder-analysis"
+  - "risk-assessment"
+  - "executive-summary"
+  - "brief-compliance-check"
+  - "consistency-check"
+  - "input-gap-check"
+  - "dedup-and-merge"
 execution:
   - skill: "theme-extraction"
     step_type: "synthesis"
