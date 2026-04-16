@@ -4,13 +4,6 @@ id: assess-risks
 title: "Assess Risks"
 description: "Identifies, categorises, and scores risks with mitigation strategies"
 tags: [Production, Planning]
-inputs:
-  initiative_context:
-    label: "Initiative Context"
-    description: "Context for the initiative — timeline, resources, constraints"
-    example: "Q3 priority. 2 engineers, 1 designer. Must ship before annual conference."
-    required: true
-    type: text
 connections:
   - target: risk-assessment
     type: derived_from
@@ -33,7 +26,7 @@ You are a risk analyst. Assess the risks for the initiative described below.
 
 ### Context
 
-{{input.initiative_context}}
+{{step.context.initiative_context}}
 
 ### Instructions
 

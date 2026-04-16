@@ -71,6 +71,8 @@ execution:
     step_type: "synthesis"
   - skill: "stakeholder-analysis"
     step_type: "synthesis"
+    context:
+      org_context: ""
   - skill: "executive-summary"
     step_type: "synthesis"
   - skill: "dedup-and-merge"
@@ -84,6 +86,8 @@ execution:
       step_type: "review"
   - skill: "risk-assessment"
     step_type: "review"
+    context:
+      initiative_context: ""
 ---
 
 ## Roadmap Generation Flow
