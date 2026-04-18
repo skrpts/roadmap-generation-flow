@@ -19,6 +19,8 @@ connections:
     type: uses
   - target: executive-summary
     type: uses
+  - target: language-polish
+    type: uses
   - target: llm-service
     type: runs_on
   - target: roadmap-methodology-guide
@@ -47,7 +49,7 @@ metadata:
   estimated_duration: "30-50 minutes"
   avg_tokens: 25000
   trigger: manual
-output_step: "executive-summary"
+output_step: "language-polish"
 composite_steps:
   - "theme-extraction"
   - "dependency-mapping"
@@ -63,6 +65,7 @@ composite_steps:
 execution:
   - skill: "theme-extraction"
     step_type: "synthesis"
+    prompt: "vision-to-themes-prompt"
   - skill: "dependency-mapping"
     step_type: "synthesis"
   - skill: "timeline-estimation"
@@ -77,6 +80,8 @@ execution:
     step_type: "synthesis"
   - skill: "dedup-and-merge"
     step_type: "synthesis"
+  - skill: "language-polish"
+    step_type: "content"
   - parallel:
     - skill: "brief-compliance-check"
       step_type: "review"
