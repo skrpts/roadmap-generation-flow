@@ -5,6 +5,8 @@ title: Roadmap Assembler
 description: "Assemble all roadmap components into a complete, structured document ready for stakeholder review"
 tags: [Production, Planning, Communication]
 connections:
+  - target: consistency-check
+    type: derived_from
   - target: roadmap-template
     type: references
 metadata:
