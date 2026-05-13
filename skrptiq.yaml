@@ -2,7 +2,7 @@ id: "97744d11-ab6e-4106-8751-2b5bc15bb522"
 name: "roadmap-generation-flow"
 display_name: "Roadmap Generation Flow"
 description: "Full product roadmap generation from vision through to themed, time-bound initiatives with dependency mapping, resource allocation, and stakeholder-ready output"
-version: "1.1.19"
+version: "1.1.20"
 engine: ">=1.0.0"
 
 author:
@@ -33,10 +33,10 @@ requires:
 
 contents:
   skills: 12
-  prompts: 13
+  prompts: 14
   workflows: 1
   services: 1
   sources: 3
   documents: 2
   assets: 2
-  total: 34
+  total: 35

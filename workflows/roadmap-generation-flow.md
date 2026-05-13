@@ -79,39 +79,40 @@ execution:
     prompt: "analyse-stakeholders"
     step_type: "synthesis"
     context:
-      org_context: ""
+      org_context: "No additional organisational context"
   - skill: "executive-summary"
     prompt: "executive-summary-prompt"
     step_type: "synthesis"
   - skill: "dedup-and-merge"
-    step_type: "synthesis"
+    step_type: "local.transform"
   - skill: "language-polish"
     prompt: "polish-language"
     step_type: "content"
     context:
-      voice_profile: ""
-      grammar_strictness: ""
+      voice_profile: "Neutral professional tone"
+      grammar_strictness: "Professional"
   - parallel:
     - skill: "brief-compliance-check"
       prompt: "check-brief-compliance"
       step_type: "review"
       context:
-        audience_profile: ""
-        compliance_brief: ""
-        compliance_depth: ""
+        audience_profile: "General professional audience"
+        compliance_brief: "No specific compliance requirements"
+        compliance_depth: "Standard"
     - skill: "consistency-check"
       prompt: "check-consistency"
       step_type: "review"
       context:
-        voice_profile: ""
-        consistency_strictness: ""
+        voice_profile: "Neutral professional tone"
+        consistency_strictness: "Standard"
     - skill: "input-gap-check"
-      step_type: "review"
+      prompt: "check-input-gaps"
+    step_type: "validation"
   - skill: "risk-assessment"
     prompt: "assess-risks"
     step_type: "review"
     context:
-      initiative_context: ""
+      initiative_context: "No additional initiative context"
 ---
 
 ## Roadmap Generation Flow
