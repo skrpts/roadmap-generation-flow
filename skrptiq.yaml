@@ -2,7 +2,7 @@ id: "97744d11-ab6e-4106-8751-2b5bc15bb522"
 name: "roadmap-generation-flow"
 display_name: "Roadmap Generation Flow"
 description: "Full product roadmap generation from vision through to themed, time-bound initiatives with dependency mapping, resource allocation, and stakeholder-ready output"
-version: "1.1.25"
+version: "1.1.26"
 engine: ">=0.1.0"
 
 author:
@@ -13,12 +13,12 @@ repository: "https://github.com/skrpts/roadmap-generation-flow"
 
 category: "product-manager"
 tags:
+  - "dependency-mapping"
+  - "okrs"
+  - "product-strategy"
+  - "resource-planning"
   - "roadmap"
   - "strategic-planning"
-  - "product-strategy"
-  - "dependency-mapping"
-  - "resource-planning"
-  - "okrs"
 
 requires:
   services:
