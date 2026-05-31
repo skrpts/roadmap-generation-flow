@@ -2,7 +2,7 @@ id: "97744d11-ab6e-4106-8751-2b5bc15bb522"
 name: "roadmap-generation-flow"
 display_name: "Roadmap Generation Flow"
 description: "Full product roadmap generation from vision through to themed, time-bound initiatives with dependency mapping, resource allocation, and stakeholder-ready output"
-version: "1.1.27"
+version: "1.1.28"
 engine: ">=0.1.0"
 
 author:
@@ -20,6 +20,62 @@ tags:
   - "roadmap"
   - "strategic-planning"
 
+dependencies:
+  - id: hub-shared/analyse-stakeholders
+    version: 1.0.0
+    checksum: "sha256:6e41716124769473b215361191efeef12dd75c5f6fa9e6a01fe9be6eb69a147f"
+  - id: hub-shared/assess-risks
+    version: 1.0.0
+    checksum: "sha256:4201c7243055be6ea740c0dba22624c108befb51d6b80c5921b1bf9ea56df2e2"
+  - id: hub-shared/brief-compliance-check
+    version: 1.0.0
+    checksum: "sha256:c118c06d56d8f053370e22581c3f7de38ff42b9f65b586f1221d369bd31d7fce"
+  - id: hub-shared/check-brief-compliance
+    version: 1.0.0
+    checksum: "sha256:2eb9532fd89ead89020b3a7a5b986cddb0bdf8be85e4c56ba9231a268b571ba7"
+  - id: hub-shared/check-consistency
+    version: 1.0.0
+    checksum: "sha256:55428cfd31a67567ce656be585195a8ea66ed09e8109262ce188c0533a5ed6b9"
+  - id: hub-shared/check-input-gaps
+    version: 1.0.0
+    checksum: "sha256:d38cba845097da9a2f70edcd691c59255ad83a1514ef1116d9ee8860c760e7fa"
+  - id: hub-shared/company-okrs
+    version: 1.0.0
+    checksum: "sha256:b65c57d0d8ef1c45dbe1d701ed85084824d32ff693dea31000ea6de100f8a84b"
+  - id: hub-shared/consistency-check
+    version: 1.0.0
+    checksum: "sha256:e7987b507ab8af34da1eb122124122cde8121a012bddf534e946528570256d0a"
+  - id: hub-shared/dedup-and-merge
+    version: 1.0.0
+    checksum: "sha256:44961665b5c292a4f49b41a7c55bd3c67da92798e9c6647d14397633ece5995a"
+  - id: hub-shared/executive-summary-prompt
+    version: 1.0.0
+    checksum: "sha256:a1e45ee1fde8e82e927ff495fcb9497df8bf4743cba6e2af00183a1c2a75150d"
+  - id: hub-shared/executive-summary
+    version: 1.0.0
+    checksum: "sha256:83cd02e3996239b04d4af7b896cdfaa1eacabecd7fb2e955cc1da5293dcb7a4a"
+  - id: hub-shared/input-gap-check
+    version: 1.0.0
+    checksum: "sha256:64ab75c3a82f8be3f5486b75c42f939abea76797ca7e3998d9207a8d125b325c"
+  - id: hub-shared/language-polish
+    version: 1.0.0
+    checksum: "sha256:9c48a06a9cd0da87d3569ba1fd1ef3106234b5dbc560d4d03be99021271a4fc2"
+  - id: hub-shared/llm-service
+    version: 1.0.0
+    checksum: "sha256:9940a8d84c3240b3dcea7fe8b88939ac43898ea4138c706ca17d783e7894bb23"
+  - id: hub-shared/polish-language
+    version: 1.0.0
+    checksum: "sha256:ef68da0b1d7b2b41e6ba5a8a2d4156e9180a261a0fcbf580c97ab2e87ec138ef"
+  - id: hub-shared/product-strategy-guide
+    version: 1.0.0
+    checksum: "sha256:1aef05d3d5ed6ad789535de07f08949898e9d889236de0d7ca81a9923bd2a5b0"
+  - id: hub-shared/risk-assessment
+    version: 1.0.0
+    checksum: "sha256:eb769c4f61f53b71ee536a37e2d6fb3626ecb108b1a1b99929209256dc1332b0"
+  - id: hub-shared/stakeholder-analysis
+    version: 1.0.0
+    checksum: "sha256:1f3dba1f28bb8f3510c9179f37d2ca63db7f30324651625698db8550260fe3ff"
+
 requires:
   services:
     - "llm-service"
@@ -32,11 +88,11 @@ requires:
     - "technical-specifications"
 
 contents:
-  skills: 12
-  prompts: 14
+  skills: 4
+  prompts: 7
   workflows: 1
-  services: 1
-  sources: 3
+  services: 0
+  sources: 1
   documents: 2
   assets: 2
-  total: 35
+  total: 17
