@@ -1,5 +1,8 @@
 # Release Notes
 
+## v1.1.30
+Re-signed after GH#633 Hub scanner fix: the previous bundle's security block carried a false-positive WARN ("output_step language-polish does not exist as a skill file") because the Hub JS scanner's C1 check was dep-blind. v1.1.30 ships against the fixed scanner; clean security block; App import-review now shows PASS on structural validation.
+
 ## v1.1.29
 Fix-forward for caller-release.yml CONTENT_HASH extraction bug surfaced by v1.1.28: the previous regex matched the first `checksum:` in the manifest (which became a dep checksum once the dependencies block landed), not the bundle's integrity checksum. v1.1.28 registered an incorrect contentHash in D1; v1.1.29 ships the integrity-block-anchored regex and the correct bundle checksum.
 
