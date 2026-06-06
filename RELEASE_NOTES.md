@@ -1,5 +1,8 @@
 # Release Notes
 
+## v1.1.32
+GH#638 Row 4 + Row 13 closure — migrate the dependencies block to K-037 schema and repin every dep at v1.0.1 (assess-risks at v1.0.2 per its own fix-forward). Pre-K-037 v1.1.31 bundle had `id: hub-shared/<slug>` for each dep, which engine STEP 4d strict-UUID match cannot reconcile against the catalogue. v1.1.32 ships each dep with `id: "<UUID>"` (canonical manifest.id from catalogue) plus `name: "<slug>"` (logical alias for URL routing and human readability). All 18 dep bundles were also republished (Row 11 cascade) so their own `manifest.id` aligns with the catalogue UUID, closing the v1.0.0 STEP 4d mismatch end-to-end. No consumer content changes; identity + dep-version repin only. UUIDs sourced from Hub catalogue per K-037; checksums fetched via gen-dep-checksums.mjs (F2 fail-loud).
+
 ## v1.1.31
 Re-sign of v1.1.30 — the v1.1.30 publish ran before the scanner fix `4f97762e` was on origin/main, so CI fetched the old scanner and the published bundle still carried the WARN-bearing security block. v1.1.31 republishes against origin/main's fixed scanner; clean security block; App import-review shows PASS on structural validation.
 
