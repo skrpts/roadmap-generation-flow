@@ -1,5 +1,8 @@
 # Release Notes
 
+## v1.1.33
+GH#745 — declare per-step `output: {name, type}` on every execution step (themes/list, dependencies/text, timeline/text, resource_plan/text, stakeholder_analysis/text, summary/text, merged_roadmap/text, polished_roadmap/text, compliance_verdict/decision, consistency_verdict/decision, input_gaps/decision, risk_assessment/text). Lights up the #744 rich flow-map with named, typed outputs. **Also corrects the input-gap-check step to its intended `validation` type** — its `step_type` was mis-indented (outside the parallel item) and dropped at parse time, so the step previously ran untyped; it is now a validation gate. Content + structural fix (GH#748); no bindings changes.
+
 ## v1.1.32
 GH#638 Row 4 + Row 13 closure — migrate the dependencies block to K-037 schema and repin every dep at v1.0.1 (assess-risks at v1.0.2 per its own fix-forward). Pre-K-037 v1.1.31 bundle had `id: hub-shared/<slug>` for each dep, which engine STEP 4d strict-UUID match cannot reconcile against the catalogue. v1.1.32 ships each dep with `id: "<UUID>"` (canonical manifest.id from catalogue) plus `name: "<slug>"` (logical alias for URL routing and human readability). All 18 dep bundles were also republished (Row 11 cascade) so their own `manifest.id` aligns with the catalogue UUID, closing the v1.0.0 STEP 4d mismatch end-to-end. No consumer content changes; identity + dep-version repin only. UUIDs sourced from Hub catalogue per K-037; checksums fetched via gen-dep-checksums.mjs (F2 fail-loud).
 

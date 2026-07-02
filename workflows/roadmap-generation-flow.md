@@ -66,28 +66,36 @@ execution:
   - skill: "theme-extraction"
     step_type: "synthesis"
     prompt: "vision-to-themes-prompt"
+    output: { name: "themes", type: "list" }
   - skill: "dependency-mapping"
     prompt: "dependency-graph-generator"
     step_type: "synthesis"
+    output: { name: "dependencies", type: "text" }
   - skill: "timeline-estimation"
     prompt: "timeline-calculator"
     step_type: "synthesis"
+    output: { name: "timeline", type: "text" }
   - skill: "resource-planning"
     prompt: "resource-mapper"
     step_type: "synthesis"
+    output: { name: "resource_plan", type: "text" }
   - skill: "stakeholder-analysis"
     prompt: "analyse-stakeholders"
     step_type: "synthesis"
+    output: { name: "stakeholder_analysis", type: "text" }
     context:
       org_context: "No additional organisational context"
   - skill: "executive-summary"
     prompt: "executive-summary-prompt"
     step_type: "synthesis"
+    output: { name: "summary", type: "text" }
   - skill: "dedup-and-merge"
     step_type: "local.transform"
+    output: { name: "merged_roadmap", type: "text" }
   - skill: "language-polish"
     prompt: "polish-language"
     step_type: "content"
+    output: { name: "polished_roadmap", type: "text" }
     context:
       voice_profile: "Neutral professional tone"
       grammar_strictness: "Professional"
@@ -95,6 +103,7 @@ execution:
     - skill: "brief-compliance-check"
       prompt: "check-brief-compliance"
       step_type: "review"
+      output: { name: "compliance_verdict", type: "decision" }
       context:
         audience_profile: "General professional audience"
         compliance_brief: "No specific compliance requirements"
@@ -102,15 +111,18 @@ execution:
     - skill: "consistency-check"
       prompt: "check-consistency"
       step_type: "review"
+      output: { name: "consistency_verdict", type: "decision" }
       context:
         voice_profile: "Neutral professional tone"
         consistency_strictness: "Standard"
     - skill: "input-gap-check"
       prompt: "check-input-gaps"
-    step_type: "validation"
+      step_type: "validation"
+      output: { name: "input_gaps", type: "decision" }
   - skill: "risk-assessment"
     prompt: "assess-risks"
     step_type: "review"
+    output: { name: "risk_assessment", type: "text" }
     context:
       initiative_context: "No additional initiative context"
 ---
