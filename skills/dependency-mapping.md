@@ -34,7 +34,7 @@ For each pair of initiatives on the roadmap, assess whether a dependency exists.
 2. **Business dependencies:** Initiative A's value proposition depends on Initiative B's success
    - Feature bundling: premium tier only makes sense if free tier drives adoption
    - Sequential value: onboarding improvements only matter if acquisition is successful
-   - Market timing: localisation only matters if market entry strategy is approved
+   - Market timing: localization only matters if market entry strategy is approved
 
 3. **Resource dependencies:** Initiatives A and B require the same team, specialist, or resource
    - Same team: both initiatives need the payments team, which can only work on one at a time
@@ -77,7 +77,7 @@ Initiatives on the critical path deserve:
 
 #### Dependency Risk Assessment
 
-Dependencies create risk. Analyse the dependency graph for:
+Dependencies create risk. Analyze the dependency graph for:
 
 - **Fan-out risk:** An initiative with many dependents (others depend on it) is a single point of failure. If it is delayed, multiple initiatives are affected.
 - **Fan-in risk:** An initiative with many dependencies (it depends on many others) is vulnerable to delays in any of its prerequisites.
@@ -91,11 +91,11 @@ Dependency mapping output must include:
 1. A **dependency matrix** — a table showing all pairwise dependencies with their type and strength
 2. A **critical path narrative** — a description of the critical path, its total duration, and the key risks along it
 3. A **dependency risk summary** — initiatives with the highest fan-out risk, fan-in risk, or chain risk
-4. A **recommended sequencing** — a proposed order of execution that respects hard dependencies, optimises for soft dependencies, and maximises parallelism
+4. A **recommended sequencing** — a proposed order of execution that respects hard dependencies, optimizes for soft dependencies, and maximizes parallelism
 
 ### Constraints
 
 - Only hard dependencies should block the timeline — do not treat preferences as constraints
-- Always check for circular dependencies — they must be resolved before the roadmap can be finalised
+- Always check for circular dependencies — they must be resolved before the roadmap can be finalized
 - Update the dependency map whenever initiatives are added, removed, or re-scoped
 - Dependencies between teams are often the most important and the most overlooked — explicitly probe for cross-team dependencies

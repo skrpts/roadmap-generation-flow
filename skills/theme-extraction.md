@@ -2,7 +2,7 @@
 type: skill
 id: theme-extraction
 title: Theme Extraction
-description: "Extracting strategic themes from product vision, OKRs, and customer feedback to organise and structure a product roadmap"
+description: "Extracting strategic themes from product vision, OKRs, and customer feedback to organize and structure a product roadmap"
 tags: [Production, Tested, Planning, Communication]
 connections:
   - target: llm-service
@@ -17,7 +17,7 @@ metadata:
 
 ## Theme Extraction
 
-This skill enables the extraction and synthesis of strategic themes from diverse product inputs — vision statements, company OKRs, customer feedback, market analysis, and competitive intelligence. Themes are the organising principle of a product roadmap: they give coherence and strategic direction to what would otherwise be a disconnected list of features.
+This skill enables the extraction and synthesis of strategic themes from diverse product inputs — vision statements, company OKRs, customer feedback, market analysis, and competitive intelligence. Themes are the organizing principle of a product roadmap: they give coherence and strategic direction to what would otherwise be a disconnected list of features.
 
 ### Core Capabilities
 
@@ -35,7 +35,7 @@ A strategic theme is not a feature category. "Mobile improvements" is a category
 
 ##### Step 1: Source Analysis
 
-Analyse each input source independently before looking for patterns:
+Analyze each input source independently before looking for patterns:
 
 **From the product vision:**
 - What are the key value propositions described?
@@ -75,7 +75,7 @@ For each candidate theme:
 2. **Write a 2-3 sentence description:** What does this theme cover? Why does it matter? What does success look like?
 3. **Map to sources:** Which vision elements, OKRs, and customer feedback clusters does this theme address?
 4. **Assess strategic weight:** Is this theme table stakes (necessary to compete), a differentiator (creates advantage), or a bet (unproven but potentially transformative)?
-5. **Estimate scope:** Is this theme a one-quarter focus or a multi-quarter programme?
+5. **Estimate scope:** Is this theme a one-quarter focus or a multi-quarter program?
 
 ##### Step 4: Theme Validation
 
@@ -94,7 +94,7 @@ Effective roadmaps frequently include themes from these categories:
 - **Growth/acquisition:** Initiatives to attract new users or enter new markets
 - **Retention/engagement:** Initiatives to deepen existing user value and reduce churn
 - **Platform/infrastructure:** Initiatives to improve reliability, scalability, and developer velocity
-- **Efficiency/monetisation:** Initiatives to improve unit economics or unlock new revenue
+- **Efficiency/monetization:** Initiatives to improve unit economics or unlock new revenue
 - **Innovation/exploration:** Initiatives that test new ideas or markets with uncertain but high potential return
 
 A roadmap that is entirely growth-focused with no platform investment is building on sand. A roadmap that is entirely platform-focused with no customer-facing work risks irrelevance. Balance matters.

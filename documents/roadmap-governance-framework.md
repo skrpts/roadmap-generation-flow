@@ -139,6 +139,6 @@ When issues cannot be resolved at the current level:
 - **Roadmap as contract:** Treating the roadmap as a binding commitment rather than a strategic plan. Dates are targets, not promises.
 - **Silent changes:** Modifying the roadmap without informing stakeholders. This erodes trust.
 - **Addition without subtraction:** Adding new initiatives without deferring or removing existing ones. This creates an infeasible plan.
-- **Review theatre:** Holding review meetings that review status but never make decisions. Reviews must have decision authority.
+- **Review theater:** Holding review meetings that review status but never make decisions. Reviews must have decision authority.
 - **Stakeholder veto loop:** Allowing any stakeholder to block changes indefinitely. Escalation paths exist for a reason.
 - **Annual roadmap, annual update:** Creating the roadmap once a year and treating it as fixed. Markets change; the roadmap must change with them.

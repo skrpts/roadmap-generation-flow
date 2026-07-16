@@ -161,10 +161,10 @@ Before running this pipeline, gather the following inputs:
 **Skill:** `theme-extraction`
 **References:** `roadmap-methodology-guide`
 
-This is the strategic foundation. Take the vision, OKRs, and customer feedback and distil them into 4-7 strategic themes that will organise the roadmap.
+This is the strategic foundation. Take the vision, OKRs, and customer feedback and distil them into 4-7 strategic themes that will organize the roadmap.
 
 Process:
-1. Analyse the product vision to identify the key value propositions and strategic directions
+1. Analyze the product vision to identify the key value propositions and strategic directions
 2. Map current OKRs to potential theme areas
 3. Cluster customer feedback and problems into thematic groups
 4. Identify themes that emerge across multiple input sources (vision + OKRs + feedback convergence)
@@ -191,7 +191,7 @@ Process:
 5. Estimate the confidence level for each initiative's expected outcome: high (validated), medium (reasonable hypothesis), low (speculative)
 6. Map each initiative to the customer segment(s) it primarily serves
 
-Output: 15-35 scoped initiatives organised by theme, each with defined outcomes, strategic classification, and confidence level.
+Output: 15-35 scoped initiatives organized by theme, each with defined outcomes, strategic classification, and confidence level.
 
 **Error handling:** If a theme cannot be broken into at least 3 concrete initiatives, it may be too narrow — consider merging it with a related theme. If a theme produces more than 8 initiatives, it may be too broad — consider splitting it.
 
@@ -252,7 +252,7 @@ Map initiatives to teams and identify resource gaps, conflicts, and allocation d
 Process:
 1. For each initiative, identify the team(s) required and the key skills needed
 2. Map initiatives to available teams and individuals
-3. Calculate utilisation per team per quarter — are any teams over-allocated?
+3. Calculate utilization per team per quarter — are any teams over-allocated?
 4. Identify resource conflicts — initiatives competing for the same team's time
 5. Flag skill gaps — initiatives requiring capabilities the current team does not have
 6. Propose resolution options for conflicts and gaps:
@@ -262,7 +262,7 @@ Process:
    - Identify initiatives that should be cut if resources cannot be secured
 7. Produce a per-quarter resource allocation summary
 
-Output: A resource allocation plan showing team-by-team assignments, utilisation rates, conflicts, and proposed resolutions.
+Output: A resource allocation plan showing team-by-team assignments, utilization rates, conflicts, and proposed resolutions.
 
 **Error handling:** If resource allocation reveals that more than 30% of planned initiatives cannot be staffed, the roadmap is aspirational, not executable. Clearly distinguish between "planned and staffed" initiatives and "planned but unfunded" initiatives.
 
@@ -277,7 +277,7 @@ Write a compelling roadmap narrative that connects the strategic themes, initiat
 Process:
 1. Open with the strategic context: where the product is today, where it is heading, and why
 2. Present each theme as a chapter in the product's story — not a list of features, but a strategic direction with rationale
-3. Highlight the key trade-offs made: what was prioritised, what was deferred, and why
+3. Highlight the key trade-offs made: what was prioritized, what was deferred, and why
 4. Address the critical path: what are the most important initiatives and what happens if they slip?
 5. Present the resource allocation story: the team is right-sized for this plan / the team needs growth in these areas
 6. Include a confidence assessment: which parts of the roadmap are high-confidence (validated need, understood implementation) and which are bets (unvalidated hypothesis, novel technology)?
@@ -297,7 +297,7 @@ Assemble all components into a complete, structured roadmap document.
 Process:
 1. Compile the roadmap narrative as the opening section
 2. Present the theme overview with initiative roll-ups
-3. Include the timeline visualisation (quarter-by-quarter initiative plan)
+3. Include the timeline visualization (quarter-by-quarter initiative plan)
 4. Include the dependency map (narrative and matrix formats)
 5. Include the resource allocation summary
 6. Append the detailed initiative cards (one per initiative with scope, outcomes, timeline, team, dependencies, risks)
@@ -313,10 +313,10 @@ The final roadmap document contains:
 1. **Executive summary** — 200-300 word overview of the roadmap's key elements
 2. **Strategic narrative** — the story of where the product is heading and why
 3. **Theme overview** — 4-7 strategic themes with descriptions and initiative counts
-4. **Initiative plan** — all initiatives organised by theme, with quarter assignments
+4. **Initiative plan** — all initiatives organized by theme, with quarter assignments
 5. **Dependency map** — narrative and matrix showing initiative relationships
 6. **Timeline** — quarter-by-quarter plan with effort estimates and confidence levels
-7. **Resource allocation** — team-by-team assignments with utilisation and gap analysis
+7. **Resource allocation** — team-by-team assignments with utilization and gap analysis
 8. **Initiative cards** — detailed cards for each initiative (scope, outcomes, team, risks)
 9. **Governance framework** — review cadence, change process, decision authority
 10. **Appendices** — raw data, methodology notes, assumptions register
@@ -327,7 +327,7 @@ The final roadmap document contains:
 - **Insufficient data:** Proceed with clearly flagged assumptions and lower confidence levels rather than blocking entirely
 - **Capacity overcommitment:** Flag immediately and present trade-off options (cut scope, extend timeline, add resources)
 - **Contradictory priorities:** Surface the contradiction for stakeholder resolution rather than making an arbitrary choice
-- **Circular dependencies:** Flag as a design problem requiring initiative re-scoping before the roadmap can be finalised
+- **Circular dependencies:** Flag as a design problem requiring initiative re-scoping before the roadmap can be finalized
 - **Stale inputs:** If the strategic context or metrics are more than one quarter old, warn that the roadmap may not reflect current reality
 
 ## Inputs
@@ -352,7 +352,7 @@ The final roadmap document contains:
 Before running this workflow:
 
 1. No external services required — paste your content directly and provide any supporting context as inputs or source nodes.
-2. Review the included documents, assets, or source nodes and customise them to match your team, brand, or domain conventions where needed.
+2. Review the included documents, assets, or source nodes and customize them to match your team, brand, or domain conventions where needed.
 3. No specific AI provider or API key is required beyond your configured skrptiq LLM provider.
 
 ## Provider Notes

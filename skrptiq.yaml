@@ -2,7 +2,7 @@ id: "97744d11-ab6e-4106-8751-2b5bc15bb522"
 name: "roadmap-generation-flow"
 display_name: "Roadmap Generation Flow"
 description: "Full product roadmap generation from vision through to themed, time-bound initiatives with dependency mapping, resource allocation, and stakeholder-ready output"
-version: "1.1.33"
+version: "1.1.34"
 engine: ">=0.1.0"
 
 author:
@@ -23,12 +23,12 @@ tags:
 dependencies:
   - id: "f3cc99d1-40c6-4ac6-85ed-61e546781396"
     name: "analyse-stakeholders"
-    version: 1.0.1
-    checksum: "sha256:d7947ed15c82d248105a78e1910052e562233efef280c480f9193bbc2e2d8d5d"
+    version: 1.0.3
+    checksum: "sha256:15a07d73dcd2c8ae9885f2a01d5892751caf42441c445de35e6bbaf630f5cd60"
   - id: "6554a264-d20e-4132-b3b6-3959f81c004b"
     name: "assess-risks"
-    version: 1.0.2
-    checksum: "sha256:06823f5acfb87b14df2925b82182a88f14c6a817bf3662bd5378a469b65441a9"
+    version: 1.0.4
+    checksum: "sha256:013c046f72fda94700eab8f25d8c256f10295ba689beaf88b88aa2b796a9ca14"
   - id: "4d802a36-2cdd-444e-b3bf-39383793c6b3"
     name: "brief-compliance-check"
     version: 1.0.1
@@ -39,44 +39,44 @@ dependencies:
     checksum: "sha256:74d0176acf505a04763a401dc7cfed400228bd39d7a5aee7f34def738cb92de0"
   - id: "41cb77d1-e7a5-46dd-a127-6cce685f20b4"
     name: "check-consistency"
-    version: 1.0.1
-    checksum: "sha256:b7f9b5064dcdf4da89947e5ec50ffe057a6109124a378c1d179e35e63295fdbf"
+    version: 1.0.5
+    checksum: "sha256:e4da29d0d31343b8b619bb98a993a997501e8c8f6e7a70c8105143a2cc85eed1"
   - id: "01a55f0b-66e4-4059-9695-3d6043605add"
     name: "check-input-gaps"
-    version: 1.0.1
-    checksum: "sha256:0cd9eb1c7861b7724c88e786823b417f250f1df5fc6ff43c13cb33c3bd4e6f31"
+    version: 1.0.4
+    checksum: "sha256:41fdc758f3c51465f8ab20678a51f798dcd0200ca6386300c473b749fc1852c8"
   - id: "af9ac7ac-7777-455d-a4c9-66a01ff4af23"
     name: "company-okrs"
-    version: 1.0.1
-    checksum: "sha256:910758ee4475da5ef48cfbde7587cc3a16b603f8b2754003ce7def09a8763eb3"
+    version: 1.0.3
+    checksum: "sha256:e3485147efa90ec0867d55e1e41e9b13012e2187f00616fe6cf0cbc084bd4ea3"
   - id: "bf15c78d-4452-406e-9d54-a72b1a4797c7"
     name: "consistency-check"
-    version: 1.0.1
-    checksum: "sha256:46773a1a6a47ad8d258856e7a84fea63af781b29f2156668e597429fdcb37329"
+    version: 1.0.3
+    checksum: "sha256:8329b049dfd3839fe5e8329adc2a0f89dec2aebf23d11a4a8602cae61dac3b48"
   - id: "6190b836-2019-4432-8a3e-95c59160aacb"
     name: "dedup-and-merge"
-    version: 1.0.1
-    checksum: "sha256:61a94a420c57df86b7796941e9e394d311e49793dfdd398b6c3118429da3099d"
+    version: 1.0.3
+    checksum: "sha256:c284f64c162dba746bdf94f6e0b7a44d7e69250be7105d185f2fad2635d05152"
   - id: "4dee536b-80e7-4f02-9c5f-48a155de2778"
     name: "executive-summary-prompt"
     version: 1.0.1
     checksum: "sha256:ee123268aa5280e97c20065e2748cf1f38106f3fe38ed4436471f40d51eccd09"
   - id: "d30b6e2d-6a48-4ca8-8bfe-ff3df6577718"
     name: "executive-summary"
-    version: 1.0.1
-    checksum: "sha256:cbd63c171fdcfb76c887cd07abecec3e29de7ebe9b505fa85e425a20bcd451b6"
+    version: 1.0.3
+    checksum: "sha256:18e8a3b6519e0fcc8e26eee6cf734608367b22808c617966855f41694535e59a"
   - id: "a20ad2f8-a4ca-4c9f-a39b-5674f0773881"
     name: "input-gap-check"
-    version: 1.0.1
-    checksum: "sha256:36a30f5c804561b32adf0c66a26362a7db7ce8b07d77c452c8aa9ae2a1c444ca"
+    version: 1.0.3
+    checksum: "sha256:e29d3c2091a058d0751079b8026038734d0412a7aec0938d72290815fe443bf7"
   - id: "3db66b8b-8758-4503-a555-5330f3f9b3d9"
     name: "language-polish"
-    version: 1.0.1
-    checksum: "sha256:ca27d401a2049f5508f0c6d5dc387a2fc4b3b4e61b439d5e8f717b448708b18b"
+    version: 1.0.3
+    checksum: "sha256:efe38bb2b4ba213139299818cc4c7d694270fcfd7ec4d3c738e2170f6394bbd6"
   - id: "fcab9536-a13e-49c9-b0c3-bb3097682e69"
     name: "llm-service"
-    version: 1.0.1
-    checksum: "sha256:455c8bf590a9426d830bffd1a741afa058149bc29c58186c34d0d8699bea4bda"
+    version: 1.0.3
+    checksum: "sha256:18783015383c041de9c3fdaa191b79172ab534348448c20c74f9a967ab4dd917"
   - id: "9b1771e0-39b0-4fbc-8d45-738f51b6083a"
     name: "polish-language"
     version: 1.0.1
@@ -87,12 +87,12 @@ dependencies:
     checksum: "sha256:c2e627658159bf06c59c5aaf9768f728ae5d583d314a14b9b827f40cbe7b2683"
   - id: "472da683-3283-4c47-abe1-3cf3f860d68d"
     name: "risk-assessment"
-    version: 1.0.1
-    checksum: "sha256:4d309c97c77d0450e1c5a6164a4c7b929798d409227592761fef90efeddcc9ef"
+    version: 1.0.3
+    checksum: "sha256:8131b83b6497727547c4dfa6dce7386373dcb7221317b32c87e406a40c47b1c8"
   - id: "128636ba-d77e-45ea-9679-92fe5a85f71c"
     name: "stakeholder-analysis"
-    version: 1.0.1
-    checksum: "sha256:3db4979b3987a8749e7e5955a09b5451ff9e5419e1ec7107640aa5f7a02d3f93"
+    version: 1.0.3
+    checksum: "sha256:dd8d8486fce84c8cee2aba0106d43aed11887c6852c4364a91ab568bb3bec526"
 
 requires:
   services:
@@ -117,7 +117,7 @@ contents:
 
 security:
   status: "pass"
-  scanned_at: "2026-07-03T16:00:28.062Z"
+  scanned_at: "2026-07-16T20:29:54.027Z"
   scanner_version: "3.3.0"
   syntactic: "pass"
   structural: "pass"

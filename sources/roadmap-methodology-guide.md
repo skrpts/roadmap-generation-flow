@@ -27,7 +27,7 @@ This reference guide covers the major product roadmap methodologies. The roadmap
 
 ### NOW-NEXT-LATER
 
-**Concept:** Instead of committing to dates, organise initiatives into three buckets based on priority and readiness:
+**Concept:** Instead of committing to dates, organize initiatives into three buckets based on priority and readiness:
 
 - **NOW:** Actively in progress or about to start. High confidence, well-understood, committed.
 - **NEXT:** Coming soon. Good understanding of the problem, solution direction identified, but not yet committed.
@@ -65,7 +65,7 @@ This reference guide covers the major product roadmap methodologies. The roadmap
 
 ### Theme-Based Roadmaps (This Pipeline's Primary Approach)
 
-**Concept:** Organise the roadmap around strategic themes — areas of investment that connect to the product vision and business strategy. Initiatives are grouped under themes, making the strategic logic visible.
+**Concept:** Organize the roadmap around strategic themes — areas of investment that connect to the product vision and business strategy. Initiatives are grouped under themes, making the strategic logic visible.
 
 **Strengths:** Communicates strategy, not just features. Makes trade-offs visible (themes have relative investment levels). Supports portfolio-level discussions. Adapts well to both quarterly and annual planning.
 
@@ -99,7 +99,7 @@ This pipeline produces a **theme-based roadmap with timeline-bound initiatives**
 
 ### Choosing the Right Methodology
 
-| If your organisation... | Consider... |
+| If your organization... | Consider... |
 |---|---|
 | Has strong OKR discipline | Outcome-based with theme overlay |
 | Needs customer-facing commitments | Timeline-based with confidence levels |

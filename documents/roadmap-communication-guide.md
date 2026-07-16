@@ -63,7 +63,7 @@ Maintain a single source of truth for the roadmap, but present different views o
 - Presenting timelines without explaining the assumptions
 - Ignoring tech debt and expecting the team to absorb it silently
 - Over-committing the team and calling it "ambitious"
-- Not explaining why certain initiatives were prioritised over the team's preferred projects
+- Not explaining why certain initiatives were prioritized over the team's preferred projects
 
 #### Sales and Customer Success Teams
 
@@ -99,7 +99,7 @@ Maintain a single source of truth for the roadmap, but present different views o
 - Use broad timeframes, not specific dates. "First half of 2026" not "March 15th"
 - Only share high-confidence items externally — never share bets as commitments
 - Be honest about direction without over-committing. "We are exploring X" is acceptable; "X is coming in Q3" is a commitment
-- Provide context for prioritisation — customers are more accepting of delays when they understand the reasoning
+- Provide context for prioritization — customers are more accepting of delays when they understand the reasoning
 
 **Common mistakes:**
 - Sharing the internal roadmap directly (exposes competitive information, creates false expectations)

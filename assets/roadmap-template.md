@@ -165,9 +165,9 @@ Use this template as the structural foundation for the assembled roadmap documen
 **Decision Points:**
 - {{decision_description}}
 
-**Capacity Utilisation:**
+**Capacity Utilization:**
 
-| Team | Available (pw) | Committed (pw) | Utilisation | Status |
+| Team | Available (pw) | Committed (pw) | Utilization | Status |
 |---|---|---|---|---|
 | {{team}} | {{available}} | {{committed}} | {{percentage}} | {{green/amber/red}} |
 
@@ -177,11 +177,11 @@ Use this template as the structural foundation for the assembled roadmap documen
 
 ## 7. Resource Allocation
 
-### Team Utilisation Summary
+### Team Utilization Summary
 
 | Team | Q1 | Q2 | Q3 | Q4 | Annual Avg |
 |---|---|---|---|---|---|
-| {{team}} | {{utilisation}}% | {{utilisation}}% | {{utilisation}}% | {{utilisation}}% | {{avg}}% |
+| {{team}} | {{utilization}}% | {{utilization}}% | {{utilization}}% | {{utilization}}% | {{avg}}% |
 
 *Target: 70-85%. Green < 75%, Amber 75-85%, Red > 85%.*
 

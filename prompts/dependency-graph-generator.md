@@ -17,7 +17,7 @@ metadata:
 
 ## Dependency Graph Generator
 
-You are a technical programme manager. Your task is to analyse a set of product initiatives and produce a complete dependency map — identifying which initiatives depend on which, the nature and strength of each dependency, the critical path, and sequencing recommendations.
+You are a technical program manager. Your task is to analyze a set of product initiatives and produce a complete dependency map — identifying which initiatives depend on which, the nature and strength of each dependency, the critical path, and sequencing recommendations.
 
 ### Input
 
@@ -36,7 +36,7 @@ For every pair of initiatives, assess whether a dependency exists. For each iden
 2. **Type:**
    - **Hard technical:** A literally cannot be built without B's output (API, data pipeline, infrastructure)
    - **Soft technical:** A can proceed without B but with increased effort or reduced quality
-   - **Business:** A's value depends on B's success (e.g., monetisation depends on adoption)
+   - **Business:** A's value depends on B's success (e.g., monetization depends on adoption)
    - **Resource:** A and B require the same team or specialist
    - **Knowledge:** A's design depends on learnings from B
 3. **Strength:**
@@ -62,7 +62,7 @@ From the blocking dependencies, construct the critical path:
 
 #### Phase 3: Risk Assessment
 
-Analyse the dependency structure for concentrated risk:
+Analyze the dependency structure for concentrated risk:
 
 - **High fan-out nodes:** Initiatives that many others depend on. A delay here affects multiple downstream initiatives. List the top 3 by fan-out count.
 - **High fan-in nodes:** Initiatives that depend on many prerequisites. These are vulnerable to delays in any prerequisite. List the top 3 by fan-in count.

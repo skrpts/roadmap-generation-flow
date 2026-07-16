@@ -101,13 +101,13 @@ Present the quarter-by-quarter plan:
 For each quarter:
 - Key initiatives starting, in progress, and completing
 - Major milestones and decision points
-- Capacity utilisation summary
+- Capacity utilization summary
 
 ##### 7. Resource Allocation
 
 Present the resource plan:
 
-**Team utilisation table:** Capacity, demand, and utilisation percentage per team per quarter.
+**Team utilization table:** Capacity, demand, and utilization percentage per team per quarter.
 
 **Conflict resolution:** How capacity conflicts were resolved (or flagged for resolution).
 
@@ -151,14 +151,14 @@ Document the roadmap governance process:
 
 #### Consistency Checks
 
-Before finalising, verify:
+Before finalizing, verify:
 
 1. **Initiative counts match:** The number of initiatives in the theme overview matches the detailed initiative cards
 2. **Timeline consistency:** Initiatives are scheduled in the same quarters across all sections
 3. **Team assignments match:** Resource allocation references the same teams as the initiative cards
 4. **Dependency references are valid:** All dependency references point to initiatives that exist in the document
 5. **Metrics consistency:** Success metrics in the narrative match those in the initiative cards
-6. **No contradictions:** The narrative does not claim something that the data contradicts (e.g., "we are well-resourced" when the resource section shows teams at 95% utilisation)
+6. **No contradictions:** The narrative does not claim something that the data contradicts (e.g., "we are well-resourced" when the resource section shows teams at 95% utilization)
 
 ### Output Format
 

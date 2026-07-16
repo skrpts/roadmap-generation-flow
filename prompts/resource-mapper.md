@@ -73,8 +73,8 @@ Include open roles with a realistic ramp-up timeline:
 Match demand to supply:
 
 1. Assign each initiative to a team (or teams, for cross-functional work)
-2. For each team-quarter, calculate utilisation: demand / available capacity
-3. Target 70-85% utilisation. Flag anything above 85%.
+2. For each team-quarter, calculate utilization: demand / available capacity
+3. Target 70-85% utilization. Flag anything above 85%.
 
 For each initiative, document:
 - **Primary team:** The team with primary ownership
@@ -106,7 +106,7 @@ Identify structural resource problems:
 
 - **Skill gaps:** Initiatives requiring capabilities that no current team member has
 - **Key person dependencies:** Initiatives where only one person has the required expertise
-- **Chronic over-allocation:** Teams that are over 85% utilised across multiple quarters (this is a staffing problem, not a planning problem)
+- **Chronic over-allocation:** Teams that are over 85% utilized across multiple quarters (this is a staffing problem, not a planning problem)
 - **Unfunded priorities:** Strategic themes with no resource allocation (the roadmap says it matters, but no one is working on it)
 
 For each gap, recommend a resolution with a realistic timeline.
@@ -118,7 +118,7 @@ For each gap, recommend a resolution with a realistic timeline.
 For each team:
 - Available capacity by quarter
 - Committed initiatives by quarter
-- Utilisation percentage by quarter
+- Utilization percentage by quarter
 - Status: Green (< 75%), Amber (75-85%), Red (> 85%)
 
 **2. Initiative ownership matrix:**
@@ -145,8 +145,8 @@ List of resource gaps with recommendations and timelines.
 
 ### Constraints
 
-- Never present a plan where any team exceeds 100% utilisation — this plan will fail
-- Flag any team above 85% utilisation as at risk — they have no buffer for surprises
+- Never present a plan where any team exceeds 100% utilization — this plan will fail
+- Flag any team above 85% utilization as at risk — they have no buffer for surprises
 - If an initiative requires skills that no one on the team has, do not silently assume they will learn — flag it as a gap
 - Open roles are not capacity until someone is hired and ramped — do not plan as if they are
 - Cross-team initiatives need explicit coordination — do not assume teams will self-organise across boundaries

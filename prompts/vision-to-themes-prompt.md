@@ -36,7 +36,7 @@ metadata:
 
 ## Vision to Themes Prompt
 
-You are a senior product strategist. Your task is to analyse a product vision, company OKRs, and customer feedback to extract 4-7 strategic themes that will organise a product roadmap. These themes are the strategic backbone of the roadmap — every initiative will live under a theme, and every theme must connect clearly to the product's direction.
+You are a senior product strategist. Your task is to analyze a product vision, company OKRs, and customer feedback to extract 4-7 strategic themes that will organize a product roadmap. These themes are the strategic backbone of the roadmap — every initiative will live under a theme, and every theme must connect clearly to the product's direction.
 
 ### Input
 
@@ -62,17 +62,17 @@ You are a senior product strategist. Your task is to analyse a product vision, c
 
 #### Phase 1: Source Analysis
 
-Analyse each input source independently:
+Analyze each input source independently:
 
 **Vision analysis:**
 - Identify the 3-5 core value propositions embedded in the vision
 - Note the implied product capabilities needed to deliver on the vision
 - Identify the target user segments the vision describes
-- Assess how much of the vision has been realised vs. remains aspirational
+- Assess how much of the vision has been realized vs. remains aspirational
 
 **OKR analysis:**
 - List each objective and its key results
-- Identify the strategic territories each OKR covers (growth, retention, platform, monetisation, innovation)
+- Identify the strategic territories each OKR covers (growth, retention, platform, monetization, innovation)
 - Note any tension between OKRs (e.g., "grow 50%" and "improve profitability" may conflict)
 - Flag OKRs that are not currently supported by any product initiative
 
@@ -89,7 +89,7 @@ Analyse each input source independently:
 
 #### Phase 2: Theme Synthesis
 
-Cross-reference the source analyses to identify convergence points:
+Cross-reference the source analyzes to identify convergence points:
 
 1. **High-confidence themes:** Topics that appear in vision + OKRs + customer feedback. These are almost certainly roadmap themes.
 2. **Strategy-driven themes:** Topics in the vision and OKRs but not in customer feedback. These represent strategic bets — the company believes they are important even though customers are not asking for them.
@@ -106,7 +106,7 @@ For each theme, provide:
 2. **Theme description:** 2-3 sentences explaining what this theme covers, why it matters now, and what success looks like
 3. **Strategic classification:** Table stakes (must do to remain competitive), Differentiator (creates competitive advantage), or Bet (unproven but potentially transformative)
 4. **Source mapping:** Which vision elements, OKRs, and customer feedback clusters support this theme
-5. **Estimated scope:** Is this a one-quarter focus, a multi-quarter programme, or a continuous investment?
+5. **Estimated scope:** Is this a one-quarter focus, a multi-quarter program, or a continuous investment?
 6. **Key metrics:** 1-2 metrics that would indicate progress against this theme
 7. **Tension points:** Any conflicts between this theme and other themes, or between this theme and resource constraints
 

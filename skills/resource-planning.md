@@ -19,7 +19,7 @@ This skill enables the mapping of product initiatives to available teams and res
 
 ### Core Capabilities
 
-#### Team Capacity Modelling
+#### Team Capacity Modeling
 
 Before allocating initiatives to teams, establish the actual available capacity:
 
@@ -57,9 +57,9 @@ For each team, for each quarter:
 - Total available capacity (after overhead adjustments)
 - Initiatives allocated to that team
 - Total effort committed vs. total capacity available
-- Utilisation rate: committed effort / available capacity
+- Utilization rate: committed effort / available capacity
 
-**Target utilisation:** 70-85% is healthy. Below 70% suggests over-hiring or insufficient ambition. Above 85% leaves no room for unplanned work, production incidents, or supporting other teams. Above 100% means the plan is infeasible.
+**Target utilization:** 70-85% is healthy. Below 70% suggests over-hiring or insufficient ambition. Above 85% leaves no room for unplanned work, production incidents, or supporting other teams. Above 100% means the plan is infeasible.
 
 ##### Step 3: Conflict Resolution
 
@@ -96,13 +96,13 @@ The most difficult resource planning challenge is cross-team work:
 
 Resource allocation data should be presented in three formats:
 
-1. **Team view:** For each team, what are they working on each quarter? What is their utilisation? Where are the conflicts?
+1. **Team view:** For each team, what are they working on each quarter? What is their utilization? Where are the conflicts?
 2. **Initiative view:** For each initiative, which teams are involved? Are they available? What are the risks?
 3. **Gap view:** Where does the roadmap require resources that are not currently available? What is the plan to close these gaps?
 
 ### Constraints
 
-- Never present a plan where any team exceeds 100% utilisation — this is a plan that cannot be executed
+- Never present a plan where any team exceeds 100% utilization — this is a plan that cannot be executed
 - Always include a buffer for unplanned work (15-20% of capacity) — production will always generate surprises
 - If resource allocation requires a new hire, include realistic ramp-up time (2-3 months for a new engineer to reach full productivity)
 - Surface single points of failure (key person dependencies) as risks, not just footnotes

@@ -70,7 +70,7 @@ Close this section by restating the product vision in 1-2 sentences and connecti
 Present each theme as a chapter in the product's story. For each theme:
 
 1. **Why this theme matters:** Connect it to the vision, OKRs, or customer need that drives it
-2. **What we are doing about it:** Summarise the key initiatives (3-5 sentences, not a full list)
+2. **What we are doing about it:** Summarize the key initiatives (3-5 sentences, not a full list)
 3. **What success looks like:** The metric or outcome that will tell us this theme was executed well
 4. **What we are not doing:** For each theme, briefly note what was considered but deliberately excluded, and why
 
@@ -80,7 +80,7 @@ Present themes in priority order. If there are dependencies between themes, make
 
 Every roadmap involves choices. Make the key trade-offs visible:
 
-- What was prioritised over what, and why?
+- What was prioritized over what, and why?
 - What customer requests or stakeholder priorities were deferred, and what is the rationale?
 - Where is the team accepting risk (e.g., betting on an unvalidated hypothesis, deferring tech debt)?
 - What would change the plan? (e.g., "if customer retention drops below X%, we will pivot resources to Theme Y")
@@ -89,7 +89,7 @@ Stakeholders trust roadmaps more when they can see the reasoning behind the choi
 
 #### Section 4: Execution Plan (200-300 words)
 
-Summarise the delivery plan without getting into Gantt-chart detail:
+Summarize the delivery plan without getting into Gantt-chart detail:
 
 - What is the phasing? What starts first, what comes later, and why?
 - What are the critical path items that the timeline depends on?
@@ -132,7 +132,7 @@ A single, continuous narrative document of 1,200-2,000 words. Use clear section 
 
 ### Constraints
 
-- Do not list every initiative — summarise at the theme level with selected highlights
+- Do not list every initiative — summarize at the theme level with selected highlights
 - Do not include detailed timelines or Gantt charts — the narrative references the timeline but does not replace it
 - Do not hide bad news — if the roadmap is constrained, ambitious, or risky, say so directly
 - Do not make promises the team cannot keep — use confidence levels honestly

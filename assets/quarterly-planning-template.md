@@ -76,14 +76,14 @@ Initiatives that started last quarter and continue into this one.
 
 ### Allocation vs. Capacity
 
-| Team | Net Available (pw) | Committed (pw) | Stretch (pw) | Utilisation (Committed) | Utilisation (All) | Status |
+| Team | Net Available (pw) | Committed (pw) | Stretch (pw) | Utilization (Committed) | Utilization (All) | Status |
 |---|---|---|---|---|---|---|
 | {{team}} | {{available}} | {{committed}} | {{stretch}} | {{pct}}% | {{pct}}% | {{green / amber / red}} |
 
 **Guidelines:**
-- Green: < 75% committed utilisation (healthy buffer)
-- Amber: 75-85% committed utilisation (limited buffer)
-- Red: > 85% committed utilisation (no buffer for unplanned work)
+- Green: < 75% committed utilization (healthy buffer)
+- Amber: 75-85% committed utilization (limited buffer)
+- Red: > 85% committed utilization (no buffer for unplanned work)
 
 ---
 
