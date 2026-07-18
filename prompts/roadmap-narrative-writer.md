@@ -17,6 +17,27 @@ connections:
     type: uses
   - target: roadmap-communication-guide
     type: references
+context_params:
+  themes:
+    label: "Strategic Themes"
+    description: "The strategic themes from the Vision to Themes stage."
+    required: false
+  initiatives:
+    label: "Initiatives"
+    description: "The scoped initiative plan from the Initiative Breakdown stage."
+    required: false
+  dependencies:
+    label: "Dependency Analysis"
+    description: "The dependency narrative and matrix from the Dependency Mapping stage."
+    required: false
+  timeline:
+    label: "Timeline"
+    description: "The quarter-by-quarter timeline from the Timeline Estimation stage."
+    required: false
+  resources:
+    label: "Resource Allocation"
+    description: "The resource allocation summary from the Resource Planning stage."
+    required: false
 metadata:
   estimated_duration: "5-10 minutes"
   avg_tokens: 4000
@@ -32,19 +53,19 @@ A roadmap is not a Gantt chart. It is a story about where the product is going a
 ### Input
 
 **Strategic themes:**
-{{steps.previous.output}}
+{{step.context.themes}}
 
 **Initiatives:**
-{{steps.previous.output}}
+{{step.context.initiatives}}
 
 **Dependency analysis:**
-{{steps.Dependency Mapping.output}}
+{{step.context.dependencies}}
 
 **Timeline and quarter plan:**
-{{steps.Timeline Estimation.output}}
+{{step.context.timeline}}
 
 **Resource allocation summary:**
-{{steps.Resource Planning.output}}
+{{step.context.resources}}
 
 **Key metrics (current state):**
 [Infer from the OKRs and customer feedback provided]

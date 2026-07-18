@@ -2,7 +2,7 @@ id: "97744d11-ab6e-4106-8751-2b5bc15bb522"
 name: "roadmap-generation-flow"
 display_name: "Roadmap Generation Flow"
 description: "Full product roadmap generation from vision through to themed, time-bound initiatives with dependency mapping, resource allocation, and stakeholder-ready output"
-version: "1.1.34"
+version: "1.1.35"
 engine: ">=0.1.0"
 
 author:
@@ -79,8 +79,8 @@ dependencies:
     checksum: "sha256:18783015383c041de9c3fdaa191b79172ab534348448c20c74f9a967ab4dd917"
   - id: "9b1771e0-39b0-4fbc-8d45-738f51b6083a"
     name: "polish-language"
-    version: 1.0.1
-    checksum: "sha256:2a666b1a1566e45a3d69cf3fac51399a471169184409ef54d588f69b7da7097e"
+    version: 1.0.6
+    checksum: "sha256:c9ad71f960c5bd2bdafc8c41a283acce4fb34ee9b9dc5f761d7443b5f18ecc40"
   - id: "3a177c81-62a5-4c66-a325-af3214103278"
     name: "product-strategy-guide"
     version: 1.0.1
@@ -106,18 +106,18 @@ requires:
     - "technical-specifications"
 
 contents:
-  skills: 4
+  skills: 7
   prompts: 7
   workflows: 1
   services: 0
   sources: 1
   documents: 2
   assets: 2
-  total: 17
+  total: 20
 
 security:
   status: "pass"
-  scanned_at: "2026-07-16T20:29:54.027Z"
+  scanned_at: "2026-07-18T15:37:14.988Z"
   scanner_version: "3.3.0"
   syntactic: "pass"
   structural: "pass"

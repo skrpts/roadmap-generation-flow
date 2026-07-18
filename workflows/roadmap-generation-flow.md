@@ -7,6 +7,12 @@ tags: [Production, Tested, Planning, Communication]
 connections:
   - target: theme-extraction
     type: uses
+  - target: initiative-breakdown
+    type: uses
+  - target: roadmap-narrative
+    type: uses
+  - target: roadmap-assembly
+    type: uses
   - target: dependency-mapping
     type: uses
   - target: timeline-estimation
@@ -52,6 +58,9 @@ metadata:
 output_step: "language-polish"
 composite_steps:
   - "theme-extraction"
+  - "initiative-breakdown"
+  - "roadmap-narrative"
+  - "roadmap-assembly"
   - "dependency-mapping"
   - "timeline-estimation"
   - "resource-planning"
@@ -67,6 +76,14 @@ execution:
     step_type: "synthesis"
     prompt: "vision-to-themes-prompt"
     output: { name: "themes", type: "list" }
+  - skill: "initiative-breakdown"
+    prompt: "initiative-breakdown-prompt"
+    step_type: "synthesis"
+    output: { name: "initiatives", type: "text" }
+    bindings:
+      themes:
+        from_step: "Theme Extraction"
+        field: output
   - skill: "dependency-mapping"
     prompt: "dependency-graph-generator"
     step_type: "synthesis"
@@ -89,6 +106,49 @@ execution:
     prompt: "executive-summary-prompt"
     step_type: "synthesis"
     output: { name: "summary", type: "text" }
+  - skill: "roadmap-narrative"
+    prompt: "roadmap-narrative-writer"
+    step_type: "synthesis"
+    output: { name: "narrative", type: "text" }
+    bindings:
+      themes:
+        from_step: "Theme Extraction"
+        field: output
+      initiatives:
+        from_step: "Initiative Breakdown"
+        field: output
+      dependencies:
+        from_step: "Dependency Mapping"
+        field: output
+      timeline:
+        from_step: "Timeline Estimation"
+        field: output
+      resources:
+        from_step: "Resource Planning"
+        field: output
+  - skill: "roadmap-assembly"
+    prompt: "roadmap-assembler"
+    step_type: "synthesis"
+    output: { name: "roadmap", type: "text" }
+    bindings:
+      narrative:
+        from_step: "Roadmap Narrative"
+        field: output
+      themes:
+        from_step: "Theme Extraction"
+        field: output
+      initiatives:
+        from_step: "Initiative Breakdown"
+        field: output
+      dependencies:
+        from_step: "Dependency Mapping"
+        field: output
+      timeline:
+        from_step: "Timeline Estimation"
+        field: output
+      resources:
+        from_step: "Resource Planning"
+        field: output
   - skill: "dedup-and-merge"
     step_type: "local.transform"
     output: { name: "merged_roadmap", type: "text" }
@@ -99,6 +159,10 @@ execution:
     context:
       voice_profile: "Neutral professional tone"
       grammar_strictness: "Professional"
+    bindings:
+      source:
+        from_step: "Roadmap Assembly"
+        field: output
   - parallel:
     - skill: "brief-compliance-check"
       prompt: "check-brief-compliance"

@@ -23,6 +23,12 @@ inputs:
     example: "React 19 + Node.js backend, PostgreSQL, deployed on AWS ECS, approximately 50k monthly active users"
     required: true
     type: text
+context_params:
+  themes:
+    label: "Strategic Themes"
+    description: "The strategic themes from the Vision to Themes stage — the input each initiative advances."
+    required: false
+    default_from_previous: true
 connections:
   - target: theme-extraction
     type: derived_from
@@ -41,7 +47,7 @@ You are a senior product manager. Your task is to take a set of strategic roadma
 ### Input
 
 **Strategic themes (from Vision to Themes stage):**
-{{steps.previous.output}}
+{{step.context.themes}}
 
 **Planning horizon:**
 [Use a 12-month planning horizon unless otherwise specified]

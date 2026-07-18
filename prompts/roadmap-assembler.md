@@ -9,6 +9,32 @@ connections:
     type: derived_from
   - target: roadmap-template
     type: references
+context_params:
+  narrative:
+    label: "Roadmap Narrative"
+    description: "The strategic narrative from the Roadmap Narrative stage — the opening section of the document."
+    required: false
+    default_from_previous: true
+  themes:
+    label: "Strategic Themes"
+    description: "The strategic themes from the Vision to Themes stage."
+    required: false
+  initiatives:
+    label: "Initiative Cards"
+    description: "The scoped initiative plan from the Initiative Breakdown stage."
+    required: false
+  dependencies:
+    label: "Dependency Analysis"
+    description: "The dependency narrative and matrix from the Dependency Mapping stage."
+    required: false
+  timeline:
+    label: "Timeline"
+    description: "The quarter-by-quarter timeline from the Timeline Estimation stage."
+    required: false
+  resources:
+    label: "Resource Allocation"
+    description: "The resource allocation summary from the Resource Planning stage."
+    required: false
 metadata:
   estimated_duration: "5-8 minutes"
   avg_tokens: 5000
@@ -22,22 +48,22 @@ You are a product operations specialist. Your task is to take all the outputs fr
 ### Input
 
 **Roadmap narrative (from Narrative Writer stage):**
-{{steps.Theme Extraction.output}}
+{{step.context.narrative}}
 
 **Strategic themes:**
-{{steps.Theme Extraction.output}}
+{{step.context.themes}}
 
 **Initiative cards:**
-{{steps.Theme Extraction.output}}
+{{step.context.initiatives}}
 
 **Dependency analysis:**
-{{steps.Dependency Mapping.output}}
+{{step.context.dependencies}}
 
 **Timeline and quarter plan:**
-{{steps.Timeline Estimation.output}}
+{{step.context.timeline}}
 
 **Resource allocation summary:**
-{{steps.Resource Planning.output}}
+{{step.context.resources}}
 
 **Planning horizon:**
 [Use a 12-month planning horizon unless otherwise specified]

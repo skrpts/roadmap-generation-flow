@@ -1,5 +1,8 @@
 # Release Notes
 
+## v1.1.35
+GH#863 Wave 1 (#858-A1 class) — K-045 intent/output-mismatch fix. The workflow shipped three producer prompts that were never invoked, so it emitted polished intermediate analysis (executive summary) rather than the promised roadmap document. This release wires the never-invoked `roadmap-assembler` (final assembler), `roadmap-narrative-writer`, and `initiative-breakdown-prompt` into the execution block in dependency order, each behind a new backing skill (`initiative-breakdown`, `roadmap-narrative`, `roadmap-assembly`) so they are `from_step`-addressable. Cross-step references were converted from positional/title form to explicit `from_step` bindings via `context_params`. The `roadmap-assembly` step is now the final content step before `language-polish`, and `polish-language` is repinned 1.0.1 → 1.0.6 (adds the bindable `source` slot) with `language-polish` `source` bound to the assembled roadmap — so the output is the polished roadmap, not the polished summary. Skills 4 → 7, total 17 → 20.
+
 ## v1.1.34
 GH#845 — republish with American English (en-US) content, completing the source-only GH#805 flip that never reached the Hub. Copy only — no functional or behaviour change.
 
