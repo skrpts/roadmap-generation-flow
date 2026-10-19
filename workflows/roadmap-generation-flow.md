@@ -150,7 +150,8 @@ execution:
         from_step: "Resource Planning"
         field: output
   - skill: "dedup-and-merge"
-    step_type: "local.transform"
+    prompt: "dedup-and-merge"
+    step_type: "synthesis"
     output: { name: "merged_roadmap", type: "text" }
   - skill: "language-polish"
     prompt: "polish-language"
