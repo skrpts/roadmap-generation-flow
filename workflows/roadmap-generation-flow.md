@@ -71,6 +71,13 @@ composite_steps:
   - "consistency-check"
   - "input-gap-check"
   - "dedup-and-merge"
+inputs:
+  inputs_provided:
+    label: "Inputs Provided"
+    description: "What was supplied for this roadmap — goals, horizon and known constraints, so gaps in it can be reported"
+    example: "H1 2027, two squads, must include the billing migration; no headcount growth"
+    required: true
+    type: text
 execution:
   - skill: "theme-extraction"
     step_type: "synthesis"
@@ -102,10 +109,18 @@ execution:
     output: { name: "stakeholder_analysis", type: "text" }
     context:
       org_context: "No additional organisational context"
+    bindings:
+      source:
+        from_step: "Initiative Breakdown"
+        field: output
   - skill: "executive-summary"
     prompt: "executive-summary-prompt"
     step_type: "synthesis"
     output: { name: "summary", type: "text" }
+    bindings:
+      source:
+        from_step: "Stakeholder Analysis"
+        field: output
   - skill: "roadmap-narrative"
     prompt: "roadmap-narrative-writer"
     step_type: "synthesis"
@@ -173,6 +188,10 @@ execution:
         audience_profile: "General professional audience"
         compliance_brief: "No specific compliance requirements"
         compliance_depth: "Standard"
+      bindings:
+        source:
+          from_step: "Language Polish"
+          field: output
     - skill: "consistency-check"
       prompt: "check-consistency"
       step_type: "review"
@@ -180,16 +199,27 @@ execution:
       context:
         voice_profile: "Neutral professional tone"
         consistency_strictness: "Standard"
+      bindings:
+        source:
+          from_step: "Language Polish"
+          field: output
     - skill: "input-gap-check"
       prompt: "check-input-gaps"
       step_type: "validation"
       output: { name: "input_gaps", type: "decision" }
+      bindings:
+        source:
+          from_input: "inputs_provided"
   - skill: "risk-assessment"
     prompt: "assess-risks"
     step_type: "review"
     output: { name: "risk_assessment", type: "text" }
     context:
       initiative_context: "No additional initiative context"
+    bindings:
+      source:
+        from_step: "Initiative Breakdown"
+        field: output
 ---
 
 ## Roadmap Generation Flow

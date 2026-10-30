@@ -1,5 +1,14 @@
 # Release Notes
 
+## v1.1.37
+GH#1100 consumer wave batch 6 — declare the data flow these steps were resolving positionally. 6 binding(s) added.
+
+`check-input-gaps` ("Inputs Provided") reports what the USER failed to supply; position would have had it audit the pipeline's own polished roadmap. New required input `inputs_provided`.
+
+**This flow now requires input it did not require before.** That is the fix: previously the user supplied nothing for these slots and the step silently received whatever the binding pointed at.
+
+Two bindings do not take the positional predecessor, both on slots labelled "Initiative": `analyse-stakeholders` and `assess-risks` bind Initiative Breakdown. Position would have given a resource plan and the polished roadmap prose respectively — the second is the clearest case of a slot being fed the text that *describes* what it asked for.
+
 ## v1.1.36
 GH#1011 — 1 step(s) that declared the non-existent `local.transform` now declare the LLM step type they were already dispatched as, and reference the shared prompt their skill never had: `dedup-and-merge` → `synthesis`.
 
