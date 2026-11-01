@@ -28,7 +28,6 @@ context_params:
     label: "Strategic Themes"
     description: "The strategic themes from the Vision to Themes stage — the input each initiative advances."
     required: false
-    default_from_previous: true
 connections:
   - target: theme-extraction
     type: derived_from

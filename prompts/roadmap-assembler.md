@@ -14,7 +14,6 @@ context_params:
     label: "Roadmap Narrative"
     description: "The strategic narrative from the Roadmap Narrative stage — the opening section of the document."
     required: false
-    default_from_previous: true
   themes:
     label: "Strategic Themes"
     description: "The strategic themes from the Vision to Themes stage."
